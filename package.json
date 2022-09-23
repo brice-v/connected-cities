@@ -1,0 +1,25 @@
+{
+  "name": "connected-cities",
+  "version": "1.0.0",
+  "description": "Determine if 2 cities are connected",
+  "main": "index.js",
+  "scripts": {
+    "main": "node src/index.js",
+    "withFile": "node src/index.js resources/test_file.csv",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brice-v/connected-cities.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brice-v/connected-cities/issues"
+  },
+  "homepage": "https://github.com/brice-v/connected-cities#readme",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
